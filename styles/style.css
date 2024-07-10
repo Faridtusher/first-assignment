@@ -18,14 +18,12 @@
    border-radius: 3px;
 }
 
-
 .primary-btn:hover{
    background-color: gray;
    color: white;
    border: none;
    cursor: pointer;
 }
-
 
 .secondary-btn{
    border-radius: 5px;
@@ -35,7 +33,6 @@
    border: none;
    margin-bottom: 20px;
 }
-
 
 .secondary-btn:hover{
    background-color: black;
@@ -74,23 +71,19 @@
    margin-bottom: 80px;
 }
 
-
 .banner-container{
    margin: 0 auto;
    text-align: center;
    width: 50%;
 }
 
-
 .banner-container>img{
    margin-bottom: 32px;
 }
 
-
 .banner-title{
    margin-bottom: 24px;
 }
-
 
 .banner-description{
   margin-bottom: 32px;
@@ -101,7 +94,7 @@
 
 /* Start to style of career section */
 .career-container{
-   width: 75%;
+   width: 60%;
    margin: 0 auto;
    text-align: center;
    border-radius: 16px;
@@ -109,20 +102,17 @@
    padding: 40px 97px 40px 97px;
 }
 
-
 .career-title{
    margin-bottom: 25px;
    color: rgb(13, 19, 33);
    font-size: 30px;
 }
 
-
 .career-description{
    margin-bottom: 50px;
    color: rgb(13, 19, 33);
    font-size: 14px;
 }
-
 
 .career-contents{
    display: flex;
@@ -134,12 +124,10 @@
    border-radius: 8px;
 }
 
-
 .career-content{
    width: 50%;
    text-align: left;
 }
-
 
 .career-content-heading{
    color: rgba(13, 19, 33, 0.7);
@@ -149,7 +137,6 @@
    letter-spacing: 0%;
    margin-bottom: 20px;
 }
-
 
 .career-content-description{
    color: rgb(13, 19, 33);
@@ -164,9 +151,8 @@
 
 
 /* start to design inspiration section */
-
 .inspiration-container{
-   width: 75%;
+   width: 60%;
    text-align: center;
    margin: 0 auto;
 }
@@ -202,4 +188,75 @@
    padding: 20px;
 }
 /* end to design inspiration section */
+
+
+
+/* start to style of current target */
+.current-target-container{
+   width: 60%;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 100px;
+}
+
+.current-target-title{
+   margin-bottom: 20px;
+   color: rgb(13, 19, 33);
+   font-size: 30px;
+   font-weight: 800;
+   line-height: 37px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+.current-target-description{
+   margin-bottom: 50px;
+}
+
+.current-target-group{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 10px;
+}
+
+.first-current-target{
+   border-radius: 10px;
+   background: rgba(255, 76, 30, 0.05);
+   padding: 25px;
+   text-align: left;
+}
+
+.second-current-target{
+   border-radius: 16px;
+   background: rgba(0, 76, 232, 0.05);
+   padding: 25px;
+   text-align: left;
+}
+
+.third-current-target{
+   border-radius: 16px;
+   background: rgba(255, 223, 0, 0.05);
+   padding: 25px;
+   text-align: left;
+}
+
+.common-current-target>img{
+   margin-bottom: 15px;
+}
+
+.common-current-target>h1{
+   margin-bottom: 15px;
+   font-size: 18px;
+}
+
+.common-current-target>p{
+   margin-bottom: 15px;
+}
+
+.common-current-target>a{
+   color: black;
+   font-weight: 700;
+}
+/* finish to style of current target */
 
