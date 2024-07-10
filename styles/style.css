@@ -39,6 +39,24 @@
    color: beige;
    cursor: pointer;
 }
+
+.tersiary-btn{
+   border-radius: 8px;
+   background: rgb(255, 255, 255);
+   padding: 17px 20px 17px 20px;
+   color: rgb(13, 19, 33);
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 23px;
+   letter-spacing: 0%;
+   text-align: center;
+   border: none;
+}
+.tersiary-btn:hover{
+   cursor: pointer;
+   background-color: azure;
+   text-decoration: underline;
+}
 /* end the section of common styles */
 
 
@@ -241,6 +259,10 @@
    text-align: left;
 }
 
+.common-current-target{
+   margin-bottom: 100px;
+}
+
 .common-current-target>img{
    margin-bottom: 15px;
 }
@@ -259,4 +281,46 @@
    font-weight: 700;
 }
 /* finish to style of current target */
+
+
+
+/* Start to style of feedback section */
+.feedback-container{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 60%;
+   margin: 0 auto;
+   text-align: center;
+   border-radius: 5px;
+   padding: 64px 48px;
+}
+
+.feedback-title{
+   margin-bottom: 20px;
+   color: rgb(255, 255, 255);
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 36px;
+   letter-spacing: 0%;
+   text-align: center;
+   }
+
+.feeback-description{
+   margin-bottom: 20px;
+   color: rgb(255, 255, 255);
+   font-size: 14px;
+   font-weight: 400;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+.feedback-container input{
+   padding: 19px 20px 19px 20px;
+   box-sizing: border-box;
+   border: 1px solid rgba(13, 19, 33, 0.15);
+   border-radius: 8px;
+   background: rgb(255, 255, 255);
+}
+/* finish to style of feedback section */
 
