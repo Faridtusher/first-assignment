@@ -21,12 +21,23 @@
 .primary-btn:hover{
    background-color: gray;
    color: white;
+   border: none;
 }
 
 .secondary-btn{
-
+   border-radius: 5px;
+   background: rgb(13, 19, 33);
+   color: white;
+   padding: 15px 20px 15px 20px;
+   border: none;
+   margin-bottom: 20px;
 }
 
+.secondary-btn:hover{
+   background-color: black;
+   color: beige;
+   cursor: pointer;
+}
 /* end the section of common styles */
 
 
@@ -35,6 +46,7 @@
    display: flex;
    align-items: center;
    justify-content: space-around;
+   margin-bottom: 50px;
 }
 
 .nav-container>h3{
@@ -45,4 +57,35 @@
    letter-spacing: 0%;
    text-align: left;
 }
+
+
+/* start the css code for banner section */
+
+.hero-section{
+   background-image: url('/assets/Hero-bg.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.banner-container{
+   margin: 0 auto;
+   text-align: center;
+   width: 50%;
+}
+
+.banner-container>img{
+   margin-bottom: 32px;
+}
+
+.banner-title{
+   margin-bottom: 24px;
+}
+
+
+.banner-description{
+  margin-bottom: 32px;
+}
+
+
+/* end the css code for banner section */
 
