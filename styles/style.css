@@ -18,11 +18,14 @@
    border-radius: 3px;
 }
 
+
 .primary-btn:hover{
    background-color: gray;
    color: white;
    border: none;
+   cursor: pointer;
 }
+
 
 .secondary-btn{
    border-radius: 5px;
@@ -33,6 +36,7 @@
    margin-bottom: 20px;
 }
 
+
 .secondary-btn:hover{
    background-color: black;
    color: beige;
@@ -41,6 +45,7 @@
 /* end the section of common styles */
 
 
+/* Start to styling the nav section */
 .nav-container{
    margin-top: 20px;
    display: flex;
@@ -57,15 +62,18 @@
    letter-spacing: 0%;
    text-align: left;
 }
+/* Finish to styling the nav section */
+
 
 
 /* start the css code for banner section */
-
 .hero-section{
    background-image: url('/assets/Hero-bg.png');
    background-repeat: no-repeat;
    background-size: cover;
+   margin-bottom: 80px;
 }
+
 
 .banner-container{
    margin: 0 auto;
@@ -73,9 +81,11 @@
    width: 50%;
 }
 
+
 .banner-container>img{
    margin-bottom: 32px;
 }
+
 
 .banner-title{
    margin-bottom: 24px;
@@ -85,7 +95,70 @@
 .banner-description{
   margin-bottom: 32px;
 }
-
-
 /* end the css code for banner section */
+
+
+
+/* Start to style of career section */
+.career-container{
+   width: 75%;
+   margin: 0 auto;
+   text-align: center;
+   border-radius: 16px;
+   background: rgba(13, 19, 33, 0.02);
+   padding: 40px 97px 40px 97px;
+}
+
+
+.career-title{
+   margin-bottom: 25px;
+   color: rgb(13, 19, 33);
+   font-size: 30px;
+}
+
+
+.career-description{
+   margin-bottom: 50px;
+   color: rgb(13, 19, 33);
+   font-size: 14px;
+}
+
+
+.career-contents{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 40px;
+   background-color: white;
+   padding: 20px;
+   border-radius: 8px;
+}
+
+
+.career-content{
+   width: 50%;
+   text-align: left;
+}
+
+
+.career-content-heading{
+   color: rgba(13, 19, 33, 0.7);
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 36px;
+   letter-spacing: 0%;
+   margin-bottom: 20px;
+}
+
+
+.career-content-description{
+   color: rgb(13, 19, 33);
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%; 
+   margin-bottom: 20px;
+}
+/* Finish to style of career section */
+
 
