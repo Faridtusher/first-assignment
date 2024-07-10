@@ -162,3 +162,44 @@
 /* Finish to style of career section */
 
 
+
+/* start to design inspiration section */
+
+.inspiration-container{
+   width: 75%;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.inspiration-title{
+   margin-top: 50px;
+   color: rgb(13, 19, 33);
+   font-size: 30px;
+   font-weight: 800;
+   line-height: 37px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+.inspiration-description{
+   margin-top: 25px;
+   margin-bottom: 30px;
+   color: rgb(13, 19, 33);
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+.inspiration-video{
+   border-radius: 16px;
+}
+
+.inspiration-video iframe{
+   border-radius: 10px;
+   border: 1px solid rgba(13, 19, 33, 0.2);
+   padding: 20px;
+}
+/* end to design inspiration section */
+
