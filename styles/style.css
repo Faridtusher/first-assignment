@@ -68,7 +68,7 @@
 
 /* start the css code for banner section */
 .hero-section{
-   background-image: url('/assets/Hero-bg.png');
+   background-image: url('../assets/Hero-bg.png');
    background-repeat: no-repeat;
    background-size: cover;
    margin-bottom: 80px;
